@@ -1,0 +1,44 @@
+{
+	"version": "1.0",
+	"timestamp": "2024-06-21T01:37:56.008Z",
+	"requestContext": {
+		"requestId": "ea172d90-7915-4771-97c4-2cdc8606bb3e",
+		"functionArn": "arn:aws:lambda:xxregionxxx:xxaws-accountxxx:function:create-campaign-lambda:$LATEST",
+		"condition": "Success",
+		"approximateInvokeCount": 1
+	},
+	"requestPayload": {
+		"Records": [
+			{
+				"eventVersion": "2.1",
+				"eventSource": "aws:s3",
+				"awsRegion": "xxregionxxx",
+				"eventTime": "2024-06-21T01:37:53.462Z",
+				"eventName": "ObjectCreated:Put",
+				"userIdentity": { "principalId": "AWS:AIDATOU72HZ4ODJKFWPVP" },
+				"requestParameters": { "sourceIPAddress": "152.97.185.58" },
+				"responseElements": {
+					"x-amz-request-id": "0CJ1K7D4B9BDS2DB",
+					"x-amz-id-2": "DLiX2z8a4Vpc8DTQFoqa2G5ncmQiotkfrDmL42/t/IPWdntIay3FztfFmjB/iVnjq1WCLa+MYP1UF9DmZEa/nHvnhFBz6Vpg"
+				},
+				"s3": {
+					"s3SchemaVersion": "1.0",
+					"configurationId": "arn:aws:cloudformation:xxregionxxx:xxaws-accountxxx:stack/create-campaign-lambda-stack/dafc2ae0-2f6b-11ef-a172-025d549de015--5653866025425442359",
+					"bucket": {
+						"name": "example-email-service",
+						"ownerIdentity": { "principalId": "A2HQX6HKSW3Q5S" },
+						"arn": "arn:aws:s3:::example-email-service"
+					},
+					"object": {
+						"key": "candidates/test-set-1.json",
+						"size": 457,
+						"eTag": "8e1b0aff0c6e111417bbf863581905bb",
+						"sequencer": "006674D97161A438D5"
+					}
+				}
+			}
+		]
+	},
+	"responseContext": { "statusCode": 200, "executedVersion": "$LATEST" },
+	"responsePayload": null
+}

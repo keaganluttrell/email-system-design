@@ -1,0 +1,23 @@
+{
+	"name": "02-create-campaign-lambda",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc --build tsconfig.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/aws-lambda": "^8.10.140",
+		"@types/node": "^20.14.7",
+		"typescript": "^5.5.2"
+	},
+	"dependencies": {
+		"@aws-sdk/client-eventbridge": "^3.600.0",
+		"@aws-sdk/client-s3": "^3.600.0",
+		"@aws-sdk/client-sesv2": "^3.600.0"
+	}
+}

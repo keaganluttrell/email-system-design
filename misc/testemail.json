@@ -1,0 +1,23 @@
+{
+	"FromEmailAddress": "sender@example.com",
+	"Destination": {
+		"ToAddresses": ["user3@example.com"]
+	},
+	"Content": {
+		"Template": {
+			"TemplateName": "test2",
+			"TemplateData": "{\"fname\":\"sre\"}"
+		}
+	},
+	"EmailTags": [
+		{
+			"Name": "campaign_id",
+			"Value": "some_campaign_id"
+		},
+		{
+			"Name": "list_name",
+			"Value": "some_list_name"
+		}
+	],
+	"ConfigurationSetName": "sre-test-config-set"
+}

@@ -1,0 +1,8 @@
+{
+	"TemplateName": "test1",
+	"TemplateContent": {
+		"Subject": "Hi {{fname}}, this is a test email for AWS SES!",
+		"Text": "Hi {{fname}}, this is a test email for AWS SES!",
+		"Html": "<html>\n<body>\n  <h1>Hello, {{name}}</h1>\n  <p>Test Email</p>\n</body>\n</html>\n"
+	}
+}

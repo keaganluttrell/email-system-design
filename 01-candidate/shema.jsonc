@@ -1,0 +1,19 @@
+{
+	"campaign_id": "string", // required
+	// fmt: yyyy-mm-ddThh:mm:ssZ "Z" is UTC, -05:00 is CDT, -06:00 is CST
+	"date": "date-string", //required ex: 2024-06-21T12:00:00-05:00 -- invoke at Noon on June 21st in the CDT timezone
+	"template_s3_uri": "string", // required
+	"segments": [
+		{
+			"list_name": "string", // required
+			"recipients": [
+				{
+					"email": "email-string", // required
+					// any key value pairs for personalization data goes here
+					"key": "value" // optional
+					// fname: joe ...
+				}
+			]
+		}
+	]
+}

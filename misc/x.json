@@ -1,0 +1,47 @@
+[
+	{
+		"Destination": { "ToAddresses": ["user3@example.com"] },
+		"FromEmailAddress": "sre@example.com",
+		"Content": {
+			"Template": {
+				"TemplateName": "test2",
+				"TemplateData": "{\"fname\": \"user3\"}"
+			}
+		},
+		"ConfigurationSetName": "sre-test-config-set",
+		"EmailTags": [
+			{ "Name": "campaign_id", "Value": "test-campaign-1" },
+			{ "Name": "list_name", "Value": "sre-list" }
+		]
+	},
+	{
+		"Destination": { "ToAddresses": ["user2@example.com"] },
+		"FromEmailAddress": "sre@example.com",
+		"Content": {
+			"Template": {
+				"TemplateName": "test2",
+				"TemplateData": "{\"fname\": \"user2\"}"
+			}
+		},
+		"ConfigurationSetName": "sre-test-config-set",
+		"EmailTags": [
+			{ "Name": "campaign_id", "Value": "test-campaign-1" },
+			{ "Name": "list_name", "Value": "sre-list" }
+		]
+	},
+	{
+		"Destination": { "ToAddresses": ["user1@example.com"] },
+		"FromEmailAddress": "sre@example.com",
+		"Content": {
+			"Template": {
+				"TemplateName": "test2",
+				"TemplateData": "{\"fname\": \"user1\"}"
+			}
+		},
+		"ConfigurationSetName": "sre-test-config-set",
+		"EmailTags": [
+			{ "Name": "campaign_id", "Value": "test-campaign-1" },
+			{ "Name": "list_name", "Value": "sre-list" }
+		]
+	}
+]

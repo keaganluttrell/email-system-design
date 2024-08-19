@@ -1,0 +1,14 @@
+{
+	"s3": {
+		"services": [
+			{
+				"name": "candidate_service",
+				"uri": "s3://example-email-service/candidates/"
+			},
+			{
+				"name": "create_campaign_service",
+				"uri": "s3://example-email-service/campaigns/"
+			}
+		]
+	}
+}

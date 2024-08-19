@@ -1,0 +1,24 @@
+{
+	"campaign_id": "test-campaign-1",
+	"date": "2025-06-21T19:00:00-05:00",
+	"template_s3_uri": "s3://example-email-service/campaigns/test-campaign-1/test-email-template.html",
+	"segments": [
+		{
+			"list_name": "sre-list",
+			"recipients": [
+				{
+					"email": "user3@example.com",
+					"fname": "user3"
+				},
+				{
+					"email": "user2@example.com",
+					"fname": "user2"
+				},
+				{
+					"email": "eric@example.com",
+					"fname": "eric"
+				}
+			]
+		}
+	]
+}
